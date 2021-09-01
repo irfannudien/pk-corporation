@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Form Pendaftaran SD Nusa 5</title>
+</head>
+<body>
+	<h2 align="center">FORM REGISTRASI</h2>
+	<form>
+		<table align="center" cellspacing="5">
+				<tr>
+					<td colspan="3" align="center" bgcolor="#e0e0e0">
+						<h3>Biodata</h3>
+					</td>
+				</tr>
+				<!-- Biodata -->
+				<tr>
+					<td>
+						<label for="nama">Nama Lengkap</label>
+					</td>
+					<td>
+						<label for="jenkel">Jenis Kelamin</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" id="nama">
+					</td>
+					<td>
+						<input type="radio" name="jenkel" id="laki" value="laki">Laki-laki
+						<input type="radio" name="jenkel" id="perempuan" value="perempuan">Perempuan
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="tempatlahir">Tempat Lahir</label>
+					</td>
+					<td>
+						<label for="tempatlahir">Tanggal Lahir</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" id="tempatlahir">
+					</td>
+					
+					<td>
+						<select name="hari" id="hari">
+							<option value="1">01</option>
+							<option value="2">02</option>
+							<option value="3">03</option>
+							<option value="4">04</option>
+							<option value="5">05</option>
+						</select>
+						<select name="bulan" id="bulan">
+							<option value="1">Januari</option>
+							<option value="2">Februari</option>
+							<option value="3">Maret</option>
+							<option value="4">April</option>
+							<option value="5">Mei</option>
+						</select>
+						<select name="tahun" id="tahun">
+							<option value="15">2015</option>
+							<option value="16">2016</option>
+							<option value="17">2017</option>
+							<option value="18">2018</option>
+							<option value="19">2019</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="agama">Agama</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<select name="agama" id="agama">
+							<option>Islam</option>
+							<option>Kristen</option>
+							<option>Katolik</option>
+							<option>Hindu</option>
+							<option>Buddha</option>
+						</select>
+					</td>
+				</tr>
+			
+			<!-- Akhir Biodata -->
+
+			<!-- Domisili -->
+			<tr>
+				<td colspan="3" align="center" bgcolor="#e0e0e0">
+					<h3>Domisili</h3>
+				</td>
+			</tr>
+			<!-- Alamat -->
+			<tr>
+				<td>
+					<label for="alamat">Alamat</label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3">
+					<textarea id="alamat"></textarea>
+				</td>
+			</tr>
+			<!-- Provinsi - Kota -->
+			<tr>
+				<td>
+					<label for="provinsi">Provinsi</label>
+				</td>
+				<td>
+					<label for="kota">Kota / Kabupaten</label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="text" id="provinsi">
+				</td>
+				<td>
+					<input type="text" id="kota">
+				</td>
+			</tr>
+			<!-- Kecamatan - Kelurahan -->
+			<tr>
+				<td>
+					<label for="kecamatan">Kecamatan</label>
+				</td>
+				<td>
+					<label for="kelurahan">Kelurahan</label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="text" id="kecamatan">
+				</td>
+				<td>
+					<input type="text" id="kelurahan">
+				</td>
+			</tr>
+			<!-- Akhir Domisili -->
+
+			<!-- Button -->
+			<tr>
+				<td>
+					<button type="submit">Daftar</button>
+				</td>
+			</tr>
+		</table>
+		
+	</form>
+	
+</body>
+</html>

@@ -1,0 +1,54 @@
+h2 {
+	margin: 35px 0 10px 0;
+	color: #008e76;
+}
+
+table {
+	height: 500px;
+	color: #008e76;
+	border: 2px solid #008e76;
+	border-radius: 5px;
+}
+
+h3 {
+	margin: 0;
+}
+
+label, 
+input, 
+button {
+	margin: 5px;
+}
+
+#nama,
+#tempatlahir {
+	width: 200px;
+	margin-right: 10px;
+}
+
+#hari {
+	margin-left:5px;
+}
+
+
+/*Domisili*/
+textarea {
+	width: 405px;
+	height: 40px;
+}
+
+#alamat, #agama {
+	margin: 0 5px 5px;
+}
+
+#kelurahan,
+#kota,
+#provinsi,
+#kecamatan {
+	width: 175px;
+}
+
+button {
+	background-color: #09bfa1;
+	border-radius: 3px;
+}
